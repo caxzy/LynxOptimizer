@@ -1,0 +1,7 @@
+EN : Editing or copying the page will result in a lawsuit.
+PL : Edycja strony lub kopiowanie będzie skutkować pozwem.
+POR : Editar ou copiar a página resultará em uma ação judicial.
+RUS : Редактирование или копирование страницы приведет к судебному иску.
+N : Das Bearbeiten oder Kopieren der Seite führt zu einer Klage.
+WL : La modifica o la copia della pagina comporterà un'azione legale.
+NOR : Redigering eller kopiering av siden vil resultere i et søksmål.
