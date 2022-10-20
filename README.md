@@ -11,7 +11,7 @@
 > Short answer: Accelerates your computer for gaming.
 
 ## What features does SEVERE FPS?
-> **Free Safest Tweaks:** It has the safest tweaks for your pc checked by over 15+ people.
+> **Free Safest Tweaks:** It has the safest tweaks for your pc checked by over 35+ people.
 
 > **Tweaks Remover:** If you have decided to change the default windows settings, SEVERE FPS automatically backs up and loads it.
 
