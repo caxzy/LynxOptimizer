@@ -12,11 +12,19 @@
 
 ## What features does SEVERE FPS?
 >**Free Safest Tweaks:** It has the safest tweaks for your pc checked by over 15+ people.
+
 **Tweaks Remover:** If you have decided to change the default windows settings, SEVERE FPS automatically backs up and loads it.
+
 **Good Cleaner:** It cleans your entire computer from log, bak, gid files and temporary folders.
+
 *WiFi Optimizer:* Resets the network card to the best settings and removes unnecessary network usage.
+
 *Auto-Updater System:* If a new version of SEVERE FPS comes out it will automatically update.
+
 *Virus Free:* We can promise SEVERE FPS that it is 100% virus free and that no antivirus will quarantine it.
+
 *PC Optimizer:* It optimizes your computer with the best tweaks, making your PC better at playing games with increased frames per second.
+
 *RAM Optimizer:* It cleans unnecessary RAM files and optimizes RAM memory for best performance.
+
 *Menu Settings:* SEVERE FPS has hard-coded appearance, color settings and more!
