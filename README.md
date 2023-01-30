@@ -10,5 +10,5 @@
 
 > Short answer: Accelerates your computer for gaming.
 
-## What features does SEVERE FPS?
+## What features does ZTweaks
 > ** Updating...**
