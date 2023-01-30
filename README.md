@@ -1,5 +1,5 @@
-<div align="center"><h1>Zenox Tweaks</h1>
-<h4>・get higher fps in games today!・<h4>
+<div align="center"><h1>ZTweaks | ZenoxTweaks</h1>
+<h4>・Tweaking Utilities・<h4>
 <img src="https://user-images.githubusercontent.com/108175829/206900152-d701bc88-e7e8-40e7-8c1d-7510ff04d40e.png" width="600" height="300">
 
 </div>
