@@ -1,1 +1,140 @@
+<!---
+    Hi skids, why are you taking the code of someone else's site?
+     Learn and that's it. AND DON'T SKID.
+--->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZTweaks | Tweaking Utilities</title>
+</head>
+<body>
+<div id="app">
+<div id="code">
+<span>ZTweaks<span class="blink"> 1.1</span>
+</div>
+<div class="downloadLink">
+<a class="txt" href="https://github.com/stormwrld/ztweaks/releases/latest/download/ZTweaks.zip">Download </a>
+</div>
+<div id="socials">
+</a>
+<a href="https://discord.gg/MKtBtrjkyn" target="_blank">
+<img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/625e5fcef7ab80b8c1fe559e_Discord-Logo-Color.png">
+</a>
+</div>
+</div>
+</div>
+<style>
+        @import url("https://fonts.googleapis.com/css?family=Aldrich&display=swap");
 
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        * {
+            font-family: "Aldrich";
+            box-sizing: border-box;
+            user-select: none;
+            outline: none;
+        }
+
+        #socials {
+            display: flex;
+            position: fixed;
+            bottom: 0;
+            align-items: center;
+            justify-content: center;
+            background: #171717;
+            width: 100%;
+            filter: drop-shadow(4px 0px 4px #171717);
+            height: 100px;
+        }
+
+        #socials img {
+            width: 100px;
+            cursor: pointer;
+            transition-duration: 0.25s;
+            filter: drop-shadow(0px 0px 2px #000000);
+        }
+
+        .downloadLink {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .downloadIcon {
+            width: 40px;
+            filter: drop-shadow(0px 0px 10px #000000);
+        }
+
+        #app {
+            background: #171717;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 0px 0px 10px;
+            font-size: 96px;
+            flex-direction: column;
+            margin-top: -76px;
+        }
+
+        #app #code {
+            color: #FF4800;
+        }
+
+        #app #code2 {
+            color: #61b5fa;
+            margin-top: 64px;
+        }
+
+        #app .txt {
+            color: #FDFDFD;
+            font-size: 32px;
+            margin-left: 32px;
+            text-decoration: none;
+            transition-duration: 0.125s;
+        }
+
+        #app .txt:hover {
+            color: #FF480099;
+        }
+
+        #code img {
+            width: 128px;
+            margin-bottom: -32px;
+        }
+
+        #code2 img {
+            width: 128px;
+            margin-bottom: -32px;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 0
+            }
+
+            49% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 1
+            }
+        }
+
+        .blink {
+            animation-name: blink;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</body>
