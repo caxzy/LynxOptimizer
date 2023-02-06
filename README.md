@@ -8,22 +8,23 @@
 ## What features does ZTweaks
  **Our utility has:**
 * Removing debloat apps from Microsoft Store.
-* Improve WiFi and Ethernet for best performance.
-* PC Cleaner which cleans the registry and junk from your computer.
+* Optimizes WiFi and Ethernet for lowest ping and packet loss.
+* PC Cleaner which cleans the registry and junk files from your computer.
 * DNS optimization for lower ping.
-* Auto-Update the system if it finds updates.
-* Disables unneeded Windows services
-* Optimize your favorite games to the best performance and quality with our team.
-* Features made by our tweaks team for pc.
-* Fixes registry errors.
-* Disables Windows Telementry and removes Windows Cortana
-* Resets the Network Card and drivers for less ping.
-* DWM Tweaks.
-* Ping Reducer.
-* ICIMI Tweaks
+* Update-System if needed you can update ZTweaks with one click.
+* Disables unneeded Windows services.
+* Disables Windows Telementry.
+* Resets the network card and drivers and fixes the large ping and packet loss.
+* Desktop Window Manager (DWM) Tweaks, Which reduces CPU usage.
+* Ping Reducer, Which reduces ping and packet instability.
+* Sets the settings in the control panel to the best it can.
+* Takes up little disk space.
+* Sets games to high priority.
+* Optimizes keyboard and mouse input latency to the lowest possible way.
+* It has the ability to perform a Windows Restore Point with a single click.
 
 **More coming soon!**
 
 ## Compatibility:
-* Best for Windows 10 and Windows 11.
+* ZTweaks can only run on Windows 10 and Windows 11.
 * Custom Windows (Tweaked for gaming).
