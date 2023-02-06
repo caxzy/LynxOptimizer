@@ -5,11 +5,6 @@
 </div>
 <hr>
 
-## Okay, but what is this?
-> It is an advanced utility that optimizes the PC for the best performance and quality in games. It not only optimizes Windows, but still PC components such as CPU,GPU and RAM.
-
-> Short answer: Accelerates the computer to the best gaming performance.
-
 ## What features does ZTweaks
  **Our utility has:**
 * Removing debloat apps from Microsoft Store.
@@ -28,3 +23,7 @@
 * ICIMI Tweaks
 
 **More coming soon!**
+
+## Compatibility:
+* Best for Windows 10 and Windows 11.
+* Custom Windows (Tweaked for gaming).
