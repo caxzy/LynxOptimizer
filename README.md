@@ -1,12 +1,13 @@
-<div align="center"><h1>ZTweaks | ZenoxTweaks</h1>
+<div align="center"><h1>ZTweaks</h1>
 <h4>・Tweaking Utilities・<h4>
-<img src="https://user-images.githubusercontent.com/108175829/221384005-f414fb8f-6f88-479d-801e-8d7b8bebf5f2.png" width="650" height="350">
+<img src="link" width="650" height="350">
+<p align="center"><a href="https://discord.gg/MKtBtrjkyn" target="_blank">if you need help join discord server</a></p>
 
 
 </div>
 <hr>
 
-## What features does ZTweaks
+## 💥Features:
  **Our utility has:**
 * Removing debloat apps from Microsoft Store.
 * Optimizes WiFi and Ethernet for lowest ping and packet loss.
@@ -26,6 +27,6 @@
 
 **More coming soon!**
 
-## Compatibility:
+## 💨Compatibility:
 * ZTweaks can only run on Windows 10 and Windows 11.
 * Custom Windows (Tweaked for gaming).
