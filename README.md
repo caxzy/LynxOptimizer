@@ -1,5 +1,5 @@
 <div align="center"><h1>ZTweaks</h1>
-<h4>・Unleash Your FPS・<h4>
+<h4>・Tweaking Sevices & Utilities・<h4>
 <img src="https://user-images.githubusercontent.com/108175829/236144303-311ea628-4d1d-4215-8cd3-410f56a95995.png" width="650" height="350">
 <p align="center"><a href="https://discord.gg/MKtBtrjkyn" target="_blank">if you need help join discord server</a></p>
 </div>
