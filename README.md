@@ -1,6 +1,6 @@
 <div align="center"><h1>Lynx Optimizer</h1>
 <img src="https://user-images.githubusercontent.com/108175829/236144303-311ea628-4d1d-4215-8cd3-410f56a95995.png" width="650" height="350">
-<div align="center"><h1>Code Re-Writing This Year!</h1></div>
+<div align="center"><h3>Code Re-Writing This Year!</h3></div>
 <p align="center"><a href="https://discord.gg/JVEWR9CGk5" target="_blank">if you need help join discord server</a></p>
 </div>
 <hr>
