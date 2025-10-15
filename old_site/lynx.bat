@@ -1,3 +1,3 @@
 @echo off
-echo Wassup
+echo Wassup.
 pause>nul
