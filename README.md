@@ -1,6 +1,6 @@
-<div align="center"><h1>Lynx Optimizer</h1>
-<p align="center"><a href="https://discord.gg/JVEWR9CGk5" target="_blank">official discord server</a></p>
-</div>
+<div align="center">
+   <h1><img src="https://github.com/caxzy/blob/main/assets/logo.png?raw=true" width="32">Lynx Optimizer</h1>
+  <p>
 <hr>
 <div align="center"><h3>We are currently updating our repository.</h3></div>
 </hr>
