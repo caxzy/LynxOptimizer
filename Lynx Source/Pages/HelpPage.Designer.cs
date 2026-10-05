@@ -17,8 +17,11 @@
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HelpPage));
             lblHelpTitle = new Label();
             lblHelpText = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // lblHelpTitle
@@ -43,15 +46,28 @@
             lblHelpText.TabIndex = 1;
             lblHelpText.Text = "Test Page 2\r\n\r\n- Text 1\r\n- Text 2";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(465, 382);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(44, 44);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // HelpPage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(30, 30, 32);
+            Controls.Add(pictureBox1);
             Controls.Add(lblHelpTitle);
             Controls.Add(lblHelpText);
             Name = "HelpPage";
             Size = new Size(512, 429);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -60,5 +76,6 @@
 
         private Label lblHelpTitle;
         private Label lblHelpText;
+        private PictureBox pictureBox1;
     }
 }

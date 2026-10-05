@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPanel));
             version_label = new Label();
             panelDec = new Panel();
             panelTitle = new Panel();
@@ -206,7 +205,6 @@
             Controls.Add(panelDec);
             Controls.Add(panelTitle);
             FormBorderStyle = FormBorderStyle.None;
-            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainPanel";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Lynx Optimizer";
