@@ -1,11 +1,39 @@
 ﻿<Page x:Class="LynxUi.Pages.HomePage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      d:DesignWidth="700" d:DesignHeight="430"
       Title="HomePage">
     <Grid Margin="20">
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Main Page 1" FontSize="22" Foreground="#E0E0E0" FontWeight="Bold" Margin="0,0,0,10" HorizontalAlignment="Center"/>
-            <TextBlock Text="Test &quot;1&quot;." FontSize="14" Foreground="#A0A0A0" HorizontalAlignment="Center"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,15">
+            <TextBlock Text="Page" FontSize="22" Foreground="#E0E0E0" FontWeight="Bold" Margin="0,0,0,5"/>
         </StackPanel>
+
+        <Button Grid.Row="2" VerticalAlignment="Center" Margin="630,0,0,0" Click="GitHubButton_Click" Cursor="Hand" ToolTip="GitHub" HorizontalAlignment="Left">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="Transparent">
+                        <Image Source="/icons/github.png" Width="30" Height="30"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Grid.Row="2" VerticalAlignment="Center" Margin="585,0,0,0" Click="DiscordButton_Click" Cursor="Hand" ToolTip="Discord Server" HorizontalAlignment="Left">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="Transparent">
+                        <Image Source="/icons/discord.png" Width="30" Height="30"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
     </Grid>
 </Page>

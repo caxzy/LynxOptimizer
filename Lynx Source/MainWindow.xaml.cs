@@ -1,4 +1,5 @@
 ﻿using LynxUi.Pages;
+using System.Configuration;
 using System.Windows;
 using System.Windows.Input;
 
@@ -6,14 +7,19 @@ namespace LynxUi
 {
     public partial class MainWindow : Window
     {
-        private const string AppVersion = "PREVIEW:0.200.5";
+        private const string AppVersion = "PREVIEW:0.215.4";
+        public static bool IsDiscordRpcEnabled { get; private set; } = true;
 
         public MainWindow()
         {
             InitializeComponent();
             VersionText.Text = AppVersion;
             MainFrame.Navigate(new HomePage());
-            MessageBox.Show("This is an unreleased version of Lynx. Many features are missing. It is a preview-only version.", "PREV-DEVELOPER.");
+        }
+
+        public static void SetDiscordRpcState(bool isEnabled)
+        {
+            IsDiscordRpcEnabled = isEnabled;
         }
 
         private void Header_MouseDown(object sender, MouseButtonEventArgs e)
@@ -32,6 +38,11 @@ namespace LynxUi
         private void NavigateHelp_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new HelpPage());
+        }
+
+        private void NavigateSettings_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void MinimizeApp_Click(object sender, RoutedEventArgs e)
