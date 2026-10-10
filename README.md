@@ -6,6 +6,7 @@ A free, open-source tweak panel for Windows 10 and 11. It puts the usual perform
 [![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/JVEWR9CGk5)
 
 Website: https://lynxoptimizer.netlify.app
+
 Discord: https://discord.gg/JVEWR9CGk5
 
 > Heads up: updates to this repo are on hold for now. For news, check the website or Discord.
