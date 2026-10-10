@@ -147,13 +147,13 @@
     <Resource Include="lynxicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="lynxicon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="icons\github.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icons\discord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lynxicon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

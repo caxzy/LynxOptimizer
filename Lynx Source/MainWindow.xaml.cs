@@ -8,18 +8,13 @@ namespace LynxUi
     public partial class MainWindow : Window
     {
         private const string AppVersion = "PREVIEW:0.215.4";
-        public static bool IsDiscordRpcEnabled { get; private set; } = true;
 
         public MainWindow()
         {
             InitializeComponent();
             VersionText.Text = AppVersion;
             MainFrame.Navigate(new HomePage());
-        }
-
-        public static void SetDiscordRpcState(bool isEnabled)
-        {
-            IsDiscordRpcEnabled = isEnabled;
+            MessageBox.Show("This is an unreleased version of Lynx. Many features are missing. It is a preview-only version.", "Preview Version.");
         }
 
         private void Header_MouseDown(object sender, MouseButtonEventArgs e)
