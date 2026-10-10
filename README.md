@@ -7,10 +7,11 @@
 
   </p>
 </div>
+   <p align="center">
+  <img src="https://raw.githubusercontent.com/caxzy/LynxOptimizer/refs/heads/main/assets/LynxBackground.png" width="380">
+</p>
 <div align="center">
-
 We are currently updating our repository.
 
 Made with ❤️.
-
 </div>
