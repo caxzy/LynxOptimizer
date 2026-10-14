@@ -13,11 +13,7 @@ Discord: https://discord.gg/JVEWR9CGk5
 
 ## What it does
 
-- Applies performance tweaks aimed at better FPS and lower latency
-- Cuts down on unneeded background stuff and junk files
-- Has options that are useful for gaming
-- Works on Windows 10 and 11
-- MIT licensed, so you can read it, use it and change it
+- Updating repo.
 
 ## Requirements
 
