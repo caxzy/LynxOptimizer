@@ -14,26 +14,28 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0" Margin="0,0,0,15">
-            <TextBlock Text="Page" FontSize="22" Foreground="#E0E0E0" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBlock Text="Home" FontSize="22" Foreground="#E0E0E0" FontWeight="Bold" Margin="0,0,0,5"/>
         </StackPanel>
 
-        <Button Grid.Row="2" VerticalAlignment="Center" Margin="630,0,0,0" Click="GitHubButton_Click" Cursor="Hand" ToolTip="GitHub" HorizontalAlignment="Left">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border Background="Transparent">
-                        <Image Source="/icons/github.png" Width="30" Height="30"/>
-                    </Border>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Grid.Row="2" VerticalAlignment="Center" Margin="585,0,0,0" Click="DiscordButton_Click" Cursor="Hand" ToolTip="Discord Server" HorizontalAlignment="Left">
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="Transparent">
-                        <Image Source="/icons/discord.png" Width="30" Height="30"/>
-                    </Border>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,15,0,0">
+            <Button Margin="0,0,10,0" Click="DiscordButton_Click" Cursor="Hand" ToolTip="Discord Server">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="Transparent">
+                            <Image Source="/icons/discord.png" Width="28" Height="28"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Click="GitHubButton_Click" Cursor="Hand" ToolTip="GitHub">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="Transparent">
+                            <Image Source="/icons/github.png" Width="28" Height="28"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
     </Grid>
 </Page>

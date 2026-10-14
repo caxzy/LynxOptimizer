@@ -7,7 +7,7 @@ namespace LynxUi
 {
     public partial class MainWindow : Window
     {
-        private const string AppVersion = "PREVIEW:0.216.2";
+        private const string AppVersion = "PREVIEW:0.250.4";
 
         public MainWindow()
         {

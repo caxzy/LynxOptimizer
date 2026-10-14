@@ -1,9 +1,8 @@
 ﻿<Application x:Class="LynxUi.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:LynxUi"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:LynxUi">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

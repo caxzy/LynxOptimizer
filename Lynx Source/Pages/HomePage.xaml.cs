@@ -14,25 +14,21 @@ namespace LynxUi.Pages
 
         private void DiscordButton_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = "https://discord.com/invite/JVEWR9CGk5",
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception)
-            {
-            }
+            OpenUrl("https://discord.com/invite/JVEWR9CGk5");
         }
+
         private void GitHubButton_Click(object sender, RoutedEventArgs e)
+        {
+            OpenUrl("https://github.com/caxzy/LynxOptimizer");
+        }
+
+        private void OpenUrl(string url)
         {
             try
             {
                 Process.Start(new ProcessStartInfo
                 {
-                    FileName = "https://github.com/caxzy/LynxOptimizer",
+                    FileName = url,
                     UseShellExecute = true
                 });
             }
