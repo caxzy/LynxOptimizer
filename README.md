@@ -5,7 +5,7 @@ A free, open-source tweak panel for Windows 10 and 11. It puts the usual perform
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/JVEWR9CGk5)
 
-Website: https://lynxoptimizer.netlify.app
+Website: https://caxzy.github.io/lynx/
 
 Discord: https://discord.gg/JVEWR9CGk5
 
