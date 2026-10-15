@@ -1,4 +1,4 @@
-﻿<Window x:Class="LynxUi.KeyChecker"
+﻿<Window x:Class="LynxUi.AppVersion"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Verification" Height="180" Width="360"
@@ -11,7 +11,7 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <TextBlock x:Name="StatusText" Text="Checking Lynx Key..." 
+            <TextBlock x:Name="StatusText" Text="Checking Lynx Version..." 
                        Foreground="#E0E0E0" FontSize="14" TextWrapping="Wrap" 
                        VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
 

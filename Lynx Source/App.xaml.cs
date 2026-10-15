@@ -10,7 +10,7 @@ namespace LynxUi
 
             ShutdownMode = ShutdownMode.OnExplicitShutdown;
 
-            if (new KeyChecker().ShowDialog() != true)
+            if (new AppVersion().ShowDialog() != true)
             {
                 Shutdown();
                 return;

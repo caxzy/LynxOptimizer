@@ -4,34 +4,33 @@ using System.Windows;
 
 namespace LynxUi
 {
-    public partial class KeyChecker : Window
+    public partial class AppVersion : Window
     {
-        private const string ExpectedKey = "AspectWashroomPupilCanopyAbridgeMustangBabiedRemoldWrongedWool"; //Do not change. Lynx authentication key.
-        private const string ExpectedUrlKey = "https://raw.githubusercontent.com/caxzy/LynxOptimizer/refs/heads/main/keysum.txt";
+        private const string GitHubRAW = "https://raw.githubusercontent.com/caxzy/LynxOptimizer/refs/heads/main/appversion.txt";
 
-        public KeyChecker()
+        public AppVersion()
         {
             InitializeComponent();
-            KeySumChecker();
+            CheckLynxVersion();
         }
 
-        private async void KeySumChecker()
+        private async void CheckLynxVersion()
         {
             try
             {
                 using (HttpClient client = new HttpClient())
                 {
-                    string remoteChecksum = await client.GetStringAsync(ExpectedUrlKey);
-                    remoteChecksum = remoteChecksum.Trim();
+                    string remoteVersion = await client.GetStringAsync(GitHubRAW);
+                    remoteVersion = remoteVersion.Trim();
 
-                    if (ExpectedKey.Equals(remoteChecksum, StringComparison.OrdinalIgnoreCase))
+                    if (MainWindow.AppVersion.Equals(remoteVersion, StringComparison.OrdinalIgnoreCase))
                     {
                         DialogResult = true;
                         Close();
                     }
                     else
                     {
-                        StatusText.Text = "Warning: Official Key does not match!\nAre you sure you want to run the program?";
+                        StatusText.Text = "Warning: Version does not match!\nAre you sure you want to run the program?";
                         ButtonsPanel.Visibility = Visibility.Visible;
                     }
                 }
