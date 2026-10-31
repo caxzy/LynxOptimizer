@@ -5,7 +5,7 @@
         WindowStyle="None"
         AllowsTransparency="True"
         Background="Transparent"
-        WindowStartupLocation="CenterScreen" Icon="/lynxicon.png">
+        WindowStartupLocation="CenterScreen" Icon="/icon.png">
 
     <Window.Resources>
         <Style x:Key="NavButton" TargetType="RadioButton">

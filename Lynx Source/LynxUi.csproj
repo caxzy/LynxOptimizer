@@ -53,7 +53,7 @@
     <StartupObject>LynxUi.App</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>lynxicon.ico</ApplicationIcon>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -151,16 +151,16 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="lynxicon.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="icons\github.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icons\discord.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="lynxicon.png" />
+    <Resource Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

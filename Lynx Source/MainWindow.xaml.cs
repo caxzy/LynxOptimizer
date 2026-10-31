@@ -7,7 +7,7 @@ namespace LynxUi
 {
     public partial class MainWindow : Window
     {
-        public static readonly string AppVersion = "PREVIEW:0.280.0";
+        public static readonly string AppVersion = "PREVIEW:0.300.0";
 
         public MainWindow()
         {
